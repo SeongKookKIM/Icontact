@@ -1,0 +1,216 @@
+@media screen and (max-width: 1400px) {
+  .header {
+    .header-bg {
+      min-width: 900px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .head {
+      width: 60px;
+      height: 60px;
+    }
+    nav {
+      height: 60px;
+      ul {
+        gap: 100px;
+        li h3 {
+          font-size: 3.3em;
+        }
+      }
+    }
+    .head-title {
+      width: 700px;
+      height: 700px;
+    }
+    .arrow {
+      height: 100%;
+    }
+  }
+  .slide {
+    .marquee {
+      height: 200px;
+    }
+    img {
+      width: 200px;
+      height: 200px;
+    }
+  }
+  .roadmap {
+    .roadmap-content {
+      width: 70%;
+    }
+  }
+  .about {
+    .about-content {
+      width: 70%;
+      height: 400px;
+    }
+  }
+  .nfts {
+    .nfts-content {
+      width: 70%;
+      height: 400px;
+    }
+  }
+  .shop {
+    .shop-content {
+      width: 70%;
+      height: 400px;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .App {
+    .bg {
+      height: 150vh;
+      top: 60%;
+    }
+  }
+  .header {
+    .head {
+      width: 130px;
+      height: 130px;
+      position: absolute;
+      top: 80%;
+      left: calc(50% - 50px);
+    }
+  }
+}
+
+@media screen and (max-width: 763px) {
+  .header {
+    nav {
+      height: 50px;
+      ul {
+        gap: 80px;
+        li h3 {
+          font-size: 2.5em;
+        }
+      }
+    }
+    .head-title {
+      width: 600px;
+      height: 600px;
+    }
+    .arrow {
+      img {
+        min-width: 736px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+  .slide {
+    .marquee {
+      height: 150px;
+    }
+    img {
+      width: 150px;
+      height: 150px;
+      opacity: 0.8;
+    }
+  }
+  .roadmap {
+    h2 {
+      font-size: 5em;
+    }
+    .roadmap-content {
+      p {
+        font-size: 3em;
+      }
+    }
+  }
+  .about {
+    h2 {
+      font-size: 5em;
+    }
+  }
+  .nfts {
+    h2 {
+      font-size: 5em;
+    }
+  }
+  .shop {
+    h2 {
+      font-size: 5em;
+    }
+  }
+  .line {
+    top: 11%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .App {
+    .bg {
+      height: 120vh;
+      top: 65%;
+    }
+  }
+  .header {
+    nav {
+      height: 50px;
+      ul {
+        gap: 45px;
+        padding-bottom: 40px;
+        li h3 {
+          font-size: 1.7em;
+        }
+      }
+    }
+    .head-title {
+      width: 450px;
+      height: 450px;
+    }
+    .head {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: 80%;
+      left: calc(50% - 40px);
+    }
+  }
+  .slide {
+    .marquee {
+      height: 120px;
+    }
+    img {
+      width: 120px;
+      height: 120px;
+    }
+  }
+  .roadmap {
+    height: 100vh;
+    h2 {
+      font-size: 4.5em;
+    }
+    .roadmap-content {
+      height: 50%;
+      p {
+        font-size: 2em;
+      }
+    }
+  }
+  .about {
+    height: 100vh;
+    .about-content {
+      height: 50%;
+    }
+  }
+  .nfts {
+    height: 100vh;
+    .height-content {
+      height: 50%;
+    }
+  }
+  .shop {
+    height: 100vh;
+    .shop-content {
+      height: 50%;
+    }
+  }
+}

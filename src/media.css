@@ -1,0 +1,176 @@
+@media screen and (max-width: 1400px) {
+  .header .header-bg {
+    min-width: 900px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .header .head {
+    width: 60px;
+    height: 60px;
+  }
+  .header nav {
+    height: 60px;
+  }
+  .header nav ul {
+    gap: 100px;
+  }
+  .header nav ul li h3 {
+    font-size: 3.3em;
+  }
+  .header .head-title {
+    width: 700px;
+    height: 700px;
+  }
+  .header .arrow {
+    height: 100%;
+  }
+  .slide .marquee {
+    height: 200px;
+  }
+  .slide img {
+    width: 200px;
+    height: 200px;
+  }
+  .roadmap .roadmap-content {
+    width: 70%;
+  }
+  .about .about-content {
+    width: 70%;
+    height: 400px;
+  }
+  .nfts .nfts-content {
+    width: 70%;
+    height: 400px;
+  }
+  .shop .shop-content {
+    width: 70%;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .App .bg {
+    height: 150vh;
+    top: 60%;
+  }
+  .header .head {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: 80%;
+    left: calc(50% - 50px);
+  }
+}
+@media screen and (max-width: 763px) {
+  .header nav {
+    height: 50px;
+  }
+  .header nav ul {
+    gap: 80px;
+  }
+  .header nav ul li h3 {
+    font-size: 2.5em;
+  }
+  .header .head-title {
+    width: 600px;
+    height: 600px;
+  }
+  .header .arrow img {
+    min-width: 736px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .slide .marquee {
+    height: 150px;
+  }
+  .slide img {
+    width: 150px;
+    height: 150px;
+    opacity: 0.8;
+  }
+  .roadmap h2 {
+    font-size: 5em;
+  }
+  .roadmap .roadmap-content p {
+    font-size: 3em;
+  }
+  .about h2 {
+    font-size: 5em;
+  }
+  .nfts h2 {
+    font-size: 5em;
+  }
+  .shop h2 {
+    font-size: 5em;
+  }
+  .line {
+    top: 11%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .App .bg {
+    height: 120vh;
+    top: 65%;
+  }
+  .header nav {
+    height: 50px;
+  }
+  .header nav ul {
+    gap: 45px;
+    padding-bottom: 40px;
+  }
+  .header nav ul li h3 {
+    font-size: 1.7em;
+  }
+  .header .head-title {
+    width: 450px;
+    height: 450px;
+  }
+  .header .head {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 80%;
+    left: calc(50% - 40px);
+  }
+  .slide .marquee {
+    height: 120px;
+  }
+  .slide img {
+    width: 120px;
+    height: 120px;
+  }
+  .roadmap {
+    height: 100vh;
+  }
+  .roadmap h2 {
+    font-size: 4.5em;
+  }
+  .roadmap .roadmap-content {
+    height: 50%;
+  }
+  .roadmap .roadmap-content p {
+    font-size: 2em;
+  }
+  .about {
+    height: 100vh;
+  }
+  .about .about-content {
+    height: 50%;
+  }
+  .nfts {
+    height: 100vh;
+  }
+  .nfts .height-content {
+    height: 50%;
+  }
+  .shop {
+    height: 100vh;
+  }
+  .shop .shop-content {
+    height: 50%;
+  }
+}/*# sourceMappingURL=media.css.map */
