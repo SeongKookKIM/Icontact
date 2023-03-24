@@ -14,14 +14,6 @@ import Footer from "./pages/Footer";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import gsap from "gsap";
 import Slide from "./pages/Slide";
-
-import BottomNavigation from "@mui/material/BottomNavigation";
-import BottomNavigationAction from "@mui/material/BottomNavigationAction";
-
-import RoomRoundedIcon from "@mui/icons-material/RoomRounded";
-import InfoRoundedIcon from "@mui/icons-material/InfoRounded";
-import CurrencyBitcoinRoundedIcon from "@mui/icons-material/CurrencyBitcoinRounded";
-import ShoppingBasketRoundedIcon from "@mui/icons-material/ShoppingBasketRounded";
 import MobileMenu from "./pages/MobileMenu";
 
 gsap.registerPlugin(ScrollTrigger);
