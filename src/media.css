@@ -192,6 +192,7 @@
     transform: scale(0);
     transition: 0.5s;
     cursor: pointer;
+    opacity: 0;
   }
   .mobile .toggle {
     position: absolute;
@@ -231,6 +232,7 @@
   }
   .active li {
     transform: scale(1);
+    opacity: 1;
   }
   .active .toggle {
     background-color: #b93b01;

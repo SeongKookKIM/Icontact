@@ -242,6 +242,7 @@
       transform: scale(0);
       transition: 0.5s;
       cursor: pointer;
+      opacity: 0;
     }
     .toggle {
       position: absolute;
@@ -281,6 +282,7 @@
     width: 100%;
     li {
       transform: scale(1);
+      opacity: 1;
     }
     .toggle {
       background-color: #b93b01;
