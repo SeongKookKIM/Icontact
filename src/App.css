@@ -335,7 +335,7 @@ body::-webkit-scrollbar-track {
 
 .footer {
   width: 100%;
-  height: 200px;
+  height: 100px;
   background-color: rgba(255, 255, 255, 0.5);
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
@@ -343,4 +343,8 @@ body::-webkit-scrollbar-track {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.mobile {
+  display: none;
 }/*# sourceMappingURL=App.css.map */

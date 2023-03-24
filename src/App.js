@@ -15,6 +15,15 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import gsap from "gsap";
 import Slide from "./pages/Slide";
 
+import BottomNavigation from "@mui/material/BottomNavigation";
+import BottomNavigationAction from "@mui/material/BottomNavigationAction";
+
+import RoomRoundedIcon from "@mui/icons-material/RoomRounded";
+import InfoRoundedIcon from "@mui/icons-material/InfoRounded";
+import CurrencyBitcoinRoundedIcon from "@mui/icons-material/CurrencyBitcoinRounded";
+import ShoppingBasketRoundedIcon from "@mui/icons-material/ShoppingBasketRounded";
+import MobileMenu from "./pages/MobileMenu";
+
 gsap.registerPlugin(ScrollTrigger);
 
 function App() {
@@ -31,21 +40,20 @@ function App() {
   }, []);
 
   const memoizedHead = useMemo(() => <Head />, []);
-  const memoizedFootline = useMemo(() => <Footline />, []);
-  const memoizedSlide = useMemo(() => <Slide />, []);
 
   return (
     <BrowserRouter>
       <div className="App">
         {memoizedHead}
-        {memoizedSlide}
+        <Slide />
         <RoadMap />
         <About />
         <Nfts />
         <Shop />
-        {memoizedFootline}
+        <Footline />
         <img src="/assets/image/bg01.png" alt="bg" className="bg"></img>
         <Footer />
+        <MobileMenu />
       </div>
     </BrowserRouter>
   );
