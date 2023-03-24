@@ -174,9 +174,6 @@
     transform: translateX(-50%);
     width: 60px;
     height: 60px;
-    background-color: rgba(255, 255, 255, 0.5);
-    -webkit-backdrop-filter: blur(10px);
-            backdrop-filter: blur(10px);
     border-radius: 60px;
     z-index: 1000000;
     transition: 0.5s;
@@ -196,16 +193,16 @@
   }
   .mobile .toggle {
     position: absolute;
+    display: block;
     width: 60px;
     height: 60px;
     background-color: #ff9059;
     border-radius: 50%;
-    transition: 0.5s;
     cursor: pointer;
-    transition: 0.5s;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
   }
   .mobile .toggle::before {
     content: "";
@@ -229,6 +226,9 @@
   }
   .active {
     width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
   }
   .active li {
     transform: scale(1);
@@ -236,16 +236,17 @@
   }
   .active .toggle {
     background-color: #b93b01;
-    transform: translateY(60px);
-    width: 30px;
-    height: 30px;
+    width: 23px;
+    height: 23px;
+    position: relative;
+    transition: 0.5s;
   }
   .active .toggle::before {
     content: "";
-    transform: translateY(0px) rotate(45deg) scale(0.6);
+    transform: translateY(0px) rotate(45deg) scale(0.4);
   }
   .active .toggle::after {
     content: "";
-    transform: translateY(0px) rotate(315deg) scale(0.6);
+    transform: translateY(0px) rotate(315deg) scale(0.4);
   }
 }/*# sourceMappingURL=media.css.map */

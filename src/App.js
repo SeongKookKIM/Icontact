@@ -28,6 +28,7 @@ function App() {
       yPercent: 50,
       duration: 5,
     });
+
     ScrollTrigger.refresh();
   }, []);
 
