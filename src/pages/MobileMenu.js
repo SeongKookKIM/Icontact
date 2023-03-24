@@ -1,6 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 
+const NavLink = React.memo(({ to, label }) => (
+  <li>
+    <Link to={to} smooth={true} duration={500} offset={0}>
+      <i>{label}</i>
+    </Link>
+  </li>
+));
+
 function MobileMenu() {
   const [isActive, setIsActive] = useState(false);
   const [isTransparent, setIsTransparent] = useState(true);
@@ -11,6 +19,16 @@ function MobileMenu() {
 
   // Mobile
   useEffect(() => {
+    function handleScroll() {
+      const scrollPosition = window.pageYOffset;
+
+      if (scrollPosition > 500) {
+        setIsTransparent(false);
+      } else {
+        setIsTransparent(true);
+      }
+    }
+
     window.addEventListener("scroll", handleScroll);
 
     return () => {
@@ -18,38 +36,12 @@ function MobileMenu() {
     };
   }, []);
 
-  function handleScroll() {
-    const scrollPosition = window.pageYOffset;
-
-    if (scrollPosition > 500) {
-      setIsTransparent(false);
-    } else {
-      setIsTransparent(true);
-    }
-  }
-
   return (
     <ul className={`mobile ${isActive ? "active" : ""}`}>
-      <li>
-        <Link to="roadmap" smooth={true} duration={500} offset={0}>
-          <i>Road MAP</i>
-        </Link>
-      </li>
-      <li>
-        <Link to="about" smooth={true} duration={500} offset={0}>
-          <i>ABOUT</i>
-        </Link>
-      </li>
-      <li>
-        <Link to="nfts" smooth={true} duration={500} offset={0}>
-          <i>NFTS</i>
-        </Link>
-      </li>
-      <li>
-        <Link to="shop" smooth={true} duration={500} offset={0}>
-          <i>SHOP</i>
-        </Link>
-      </li>
+      <NavLink to="roadmap" label="Road MAP" />
+      <NavLink to="about" label="ABOUT" />
+      <NavLink to="nfts" label="NFTS" />
+      <NavLink to="shop" label="SHOP" />
       <span
         className="toggle"
         onClick={handleClick}
@@ -59,4 +51,4 @@ function MobileMenu() {
   );
 }
 
-export default MobileMenu;
+export default React.memo(MobileMenu);
