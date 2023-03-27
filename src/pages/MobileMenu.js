@@ -38,10 +38,9 @@ function MobileMenu() {
 
   return (
     <ul className={`mobile ${isActive ? "active" : ""}`}>
-      <NavLink to="roadmap" label="Road MAP" />
       <NavLink to="about" label="ABOUT" />
+      <NavLink to="roadmap" label="Road MAP" />
       <NavLink to="nfts" label="NFTS" />
-      <NavLink to="shop" label="SHOP" />
       <span
         className="toggle"
         onClick={handleClick}

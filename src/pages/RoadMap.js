@@ -12,18 +12,10 @@ function RoadMap() {
       <h2 data-aos="fade-up">RoadMap</h2>
       <div className="roadmap-content" data-aos="flip-left">
         <p>
-          How to Pick colors to cpa-
-          <br />
-          tivate Readers and Commu-
-          <br />
-          nicate Effectively - How to <br />
-          Pick Colors to Captivate
-          <br />
-          Reacders and communicate
-          <br />
-          Effectively - VennagagaVenn-
-          <br />
-          gage
+          The cat that greets you with warm eye contact is currently shivering
+          with hunger on the street. Abandoned and unfamiliar with seeking help
+          from people, stray cats endure pain, loneliness, and hunger on their
+          own. We need to help them out with warm hearts.
         </p>
       </div>
     </section>

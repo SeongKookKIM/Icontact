@@ -7,7 +7,6 @@ import Head from "./pages/Head";
 import RoadMap from "./pages/RoadMap";
 import About from "./pages/About";
 import Nfts from "./pages/Nfts";
-import Shop from "./pages/Shop";
 import Footline from "./Footline";
 import Footer from "./pages/Footer";
 
@@ -39,10 +38,9 @@ function App() {
       <div className="App">
         {memoizedHead}
         <Slide />
-        <RoadMap />
         <About />
+        <RoadMap />
         <Nfts />
-        <Shop />
         <Footline />
         <img src="/assets/image/bg01.png" alt="bg" className="bg"></img>
         <Footer />

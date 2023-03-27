@@ -33,20 +33,20 @@
     width: 200px;
     height: 200px;
   }
+  .about .about-content {
+    width: 60%;
+  }
   .roadmap .roadmap-content {
     width: 70%;
   }
-  .about .about-content {
-    width: 70%;
-    height: 400px;
+  .roadmap .roadmap-content p {
+    font-size: 3em;
   }
   .nfts .nfts-content {
-    width: 70%;
-    height: 400px;
+    width: 60%;
   }
-  .shop .shop-content {
-    width: 70%;
-    height: 400px;
+  .nfts .nfts-content ol li p {
+    font-size: 3em;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -60,6 +60,9 @@
     position: absolute;
     top: 80%;
     left: calc(50% - 50px);
+  }
+  .nfts .nfts-content ol li p {
+    text-align: left;
   }
 }
 @media screen and (max-width: 763px) {
@@ -91,19 +94,19 @@
     height: 150px;
     opacity: 0.8;
   }
+  .about h2 {
+    font-size: 5em;
+  }
+  .about .about-content p {
+    font-size: 2.35em;
+  }
   .roadmap h2 {
     font-size: 5em;
   }
   .roadmap .roadmap-content p {
     font-size: 3em;
   }
-  .about h2 {
-    font-size: 5em;
-  }
   .nfts h2 {
-    font-size: 5em;
-  }
-  .shop h2 {
     font-size: 5em;
   }
   .line {
@@ -136,8 +139,19 @@
     width: 120px;
     height: 120px;
   }
+  .about {
+    height: 100%;
+    margin: 0;
+  }
+  .about .about-content {
+    width: 70%;
+  }
+  .about .about-content p {
+    font-size: 1.3em;
+  }
   .roadmap {
-    height: 100vh;
+    height: 100%;
+    margin: 0;
   }
   .roadmap h2 {
     font-size: 4.5em;
@@ -148,23 +162,18 @@
   .roadmap .roadmap-content p {
     font-size: 2em;
   }
-  .about {
-    height: 100vh;
-  }
-  .about .about-content {
-    height: 50%;
-  }
   .nfts {
-    height: 100vh;
+    height: 100%;
+    margin-bottom: 200px;
   }
-  .nfts .height-content {
-    height: 50%;
+  .nfts .nfts-content {
+    min-height: auto;
   }
-  .shop {
-    height: 100vh;
+  .nfts .nfts-content ol {
+    gap: 50px;
   }
-  .shop .shop-content {
-    height: 50%;
+  .nfts .nfts-content ol li p {
+    font-size: 1.7em;
   }
   .mobile {
     display: block;

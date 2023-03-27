@@ -37,27 +37,26 @@
       height: 200px;
     }
   }
+  .about {
+    .about-content {
+      width: 60%;
+    }
+  }
   .roadmap {
     .roadmap-content {
       width: 70%;
+      p {
+        font-size: 3em;
+      }
     }
   }
-  .about {
-    .about-content {
-      width: 70%;
-      height: 400px;
-    }
-  }
+
   .nfts {
     .nfts-content {
-      width: 70%;
-      height: 400px;
-    }
-  }
-  .shop {
-    .shop-content {
-      width: 70%;
-      height: 400px;
+      width: 60%;
+      ol li p {
+        font-size: 3em;
+      }
     }
   }
 }
@@ -76,6 +75,13 @@
       position: absolute;
       top: 80%;
       left: calc(50% - 50px);
+    }
+  }
+  .nfts {
+    .nfts-content {
+      ol li p {
+        text-align: left;
+      }
     }
   }
 }
@@ -115,6 +121,16 @@
       opacity: 0.8;
     }
   }
+  .about {
+    h2 {
+      font-size: 5em;
+    }
+    .about-content {
+      p {
+        font-size: 2.35em;
+      }
+    }
+  }
   .roadmap {
     h2 {
       font-size: 5em;
@@ -125,21 +141,13 @@
       }
     }
   }
-  .about {
-    h2 {
-      font-size: 5em;
-    }
-  }
+
   .nfts {
     h2 {
       font-size: 5em;
     }
   }
-  .shop {
-    h2 {
-      font-size: 5em;
-    }
-  }
+
   .line {
     top: 11%;
   }
@@ -152,17 +160,6 @@
     }
   }
   .header {
-    // nav {
-    //   height: 50px;
-    //   ul {
-    //     gap: 45px;
-    //     padding-bottom: 40px;
-    //     li h3 {
-    //       font-size: 1.7em;
-    //     }
-    //   }
-    // }
-
     nav {
       display: none;
     }
@@ -187,8 +184,19 @@
       height: 120px;
     }
   }
+  .about {
+    height: 100%;
+    margin: 0;
+    .about-content {
+      width: 70%;
+      p {
+        font-size: 1.3em;
+      }
+    }
+  }
   .roadmap {
-    height: 100vh;
+    height: 100%;
+    margin: 0;
     h2 {
       font-size: 4.5em;
     }
@@ -199,22 +207,18 @@
       }
     }
   }
-  .about {
-    height: 100vh;
-    .about-content {
-      height: 50%;
-    }
-  }
+
   .nfts {
-    height: 100vh;
-    .height-content {
-      height: 50%;
-    }
-  }
-  .shop {
-    height: 100vh;
-    .shop-content {
-      height: 50%;
+    height: 100%;
+    margin-bottom: 200px;
+    .nfts-content {
+      min-height: auto;
+      ol {
+        gap: 50px;
+        li p {
+          font-size: 1.7em;
+        }
+      }
     }
   }
 

@@ -84,13 +84,6 @@ function Head() {
         <ul>
           <li>
             <h3>
-              <Link to="roadmap" smooth={true} duration={500} offset={0}>
-                <i>Road MAP</i>
-              </Link>
-            </h3>
-          </li>
-          <li>
-            <h3>
               <Link to="about" smooth={true} duration={500} offset={0}>
                 <i>ABOUT</i>
               </Link>
@@ -98,15 +91,15 @@ function Head() {
           </li>
           <li>
             <h3>
-              <Link to="nfts" smooth={true} duration={500} offset={0}>
-                <i>NFTS</i>
+              <Link to="roadmap" smooth={true} duration={500} offset={0}>
+                <i>Road MAP</i>
               </Link>
             </h3>
           </li>
           <li>
             <h3>
-              <Link to="shop" smooth={true} duration={500} offset={0}>
-                <i>SHOP</i>
+              <Link to="nfts" smooth={true} duration={500} offset={0}>
+                <i>NFTS</i>
               </Link>
             </h3>
           </li>
