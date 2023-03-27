@@ -222,8 +222,7 @@
     display: block;
     position: fixed;
     top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 20px;
     width: 60px;
     height: 60px;
     border-radius: 60px;
@@ -247,7 +246,7 @@
       display: block;
       width: 60px;
       height: 60px;
-      background-color: #ff9059;
+      background-color: #ffba61;
       border-radius: 50%;
       cursor: pointer;
       display: flex;
@@ -278,6 +277,7 @@
   }
   .active {
     width: 100%;
+    left: 0;
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(10px);
     li {
