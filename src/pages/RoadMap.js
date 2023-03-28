@@ -9,8 +9,19 @@ function RoadMap() {
 
   return (
     <section className="roadmap" id="roadmap">
-      <h2 data-aos="fade-up">RoadMap</h2>
-      <div className="roadmap-content" data-aos="flip-left">
+      <h2
+        data-aos="fade-up"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+      >
+        RoadMap
+      </h2>
+      <div
+        className="roadmap-content"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+      >
         <p>
           The cat that greets you with warm eye contact is currently shivering
           with hunger on the street. Abandoned and unfamiliar with seeking help

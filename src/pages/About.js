@@ -9,12 +9,17 @@ function About() {
   return (
     <section
       className="about"
-      data-aos="zoom-out-down"
+      data-aos="fade-up"
       data-aos-easing="ease-out-cubic"
       data-aos-duration="2000"
     >
       <h2>ABOUT</h2>
-      <div className="about-content">
+      <div
+        className="about-content"
+        data-aos="flip-right"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+      >
         <p>
           When a cat and a person make eye contact, it signifies understanding
           and communication between them. The NFT artwork "Eye Contact"

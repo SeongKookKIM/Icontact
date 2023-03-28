@@ -84,6 +84,28 @@
       }
     }
   }
+  .footer {
+    height: 130px;
+    gap: 10px;
+    img {
+      width: 180px;
+    }
+    p {
+      font-size: 1em;
+      color: #fff;
+    }
+  }
+  .link-menu {
+    width: 45px;
+    height: 200px;
+
+    ul {
+      li {
+        width: 45px;
+        height: 45px;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 763px) {
@@ -126,6 +148,7 @@
       font-size: 5em;
     }
     .about-content {
+      width: 70%;
       p {
         font-size: 2.35em;
       }
@@ -150,6 +173,26 @@
 
   .line {
     top: 11%;
+  }
+  .footer {
+    img {
+      width: 150px;
+    }
+    p {
+      font-size: 1em;
+      color: #fff;
+    }
+  }
+  .link-menu {
+    width: 40px;
+    height: 180px;
+
+    ul {
+      li {
+        width: 40px;
+        height: 40px;
+      }
+    }
   }
 }
 @media screen and (max-width: 600px) {
@@ -190,7 +233,7 @@
     .about-content {
       width: 70%;
       p {
-        font-size: 1.3em;
+        font-size: 2em;
       }
     }
   }
@@ -216,9 +259,19 @@
       ol {
         gap: 50px;
         li p {
-          font-size: 1.7em;
+          font-size: 2em;
         }
       }
+    }
+  }
+  .footer {
+    height: 100px;
+    img {
+      width: 100px;
+    }
+    p {
+      font-size: 0.6em;
+      color: #fff;
     }
   }
 
@@ -302,6 +355,18 @@
     .toggle::after {
       content: "";
       transform: translateY(0px) rotate(315deg) scale(0.4);
+    }
+  }
+
+  .link-menu {
+    width: 30px;
+    height: 120px;
+
+    ul {
+      li {
+        width: 30px;
+        height: 30px;
+      }
     }
   }
 }

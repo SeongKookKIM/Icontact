@@ -98,7 +98,7 @@ function Head() {
           </li>
           <li>
             <h3>
-              <Link to="nfts" smooth={true} duration={500} offset={0}>
+              <Link to="nfts" smooth={true} duration={500} offset={40}>
                 <i>NFTS</i>
               </Link>
             </h3>

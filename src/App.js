@@ -8,6 +8,7 @@ import RoadMap from "./pages/RoadMap";
 import About from "./pages/About";
 import Nfts from "./pages/Nfts";
 import Footline from "./Footline";
+import Link from "./pages/Link";
 import Footer from "./pages/Footer";
 
 import ScrollTrigger from "gsap/ScrollTrigger";
@@ -45,6 +46,7 @@ function App() {
         <img src="/assets/image/bg01.png" alt="bg" className="bg"></img>
         <Footer />
         <MobileMenu />
+        <Link />
       </div>
     </BrowserRouter>
   );
