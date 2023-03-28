@@ -1,26 +1,33 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { debounce } from "lodash";
 
 function RoadMap() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
+  const contentRef = useRef(null);
 
+  useEffect(() => {
+    const handleScroll = debounce(() => {
+      if (contentRef.current) {
+        AOS.refreshHard();
+      }
+    }, 300);
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
-    <section className="roadmap" id="roadmap">
-      <h2
-        data-aos="fade-up"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000"
-      >
+    <div className="roadmap">
+      <h2 data-aos="fade-up" data-aos-duration="2000" ref={contentRef}>
         RoadMap
       </h2>
       <div
         className="roadmap-content"
-        data-aos="flip-left"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000"
+        data-aos="flip-right"
+        data-aos-duration="3000"
+        ref={contentRef}
       >
         <p>
           The cat that greets you with warm eye contact is currently shivering
@@ -29,7 +36,7 @@ function RoadMap() {
           own. We need to help them out with warm hearts.
         </p>
       </div>
-    </section>
+    </div>
   );
 }
 

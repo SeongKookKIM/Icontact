@@ -7,18 +7,14 @@ function About() {
     AOS.init();
   }, []);
   return (
-    <section
-      className="about"
-      data-aos="fade-up"
-      data-aos-easing="ease-out-cubic"
-      data-aos-duration="2000"
-    >
-      <h2>ABOUT</h2>
+    <section className="about">
+      <h2 data-aos="fade-up" data-aos-duration="2000">
+        ABOUT
+      </h2>
       <div
         className="about-content"
-        data-aos="flip-right"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000"
+        data-aos="flip-left"
+        data-aos-duration="3000"
       >
         <p>
           When a cat and a person make eye contact, it signifies understanding

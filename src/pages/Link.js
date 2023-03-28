@@ -5,14 +5,13 @@ function Link() {
     <div className="link-menu">
       <ul>
         <li>
-          <img src="assets/image/opensea.svg" alt="opensea" />
-        </li>
-        <li>
-          <img src="assets/image/discord.svg" alt="discord" />
-        </li>
-
-        <li>
-          <img src="assets/image/twitter.svg" alt="twitter" />
+          <img
+            src="assets/image/strmnft.svg"
+            alt="opensea"
+            onClick={() => {
+              window.open("https://strmnft.com/", "_blank");
+            }}
+          />
         </li>
       </ul>
     </div>

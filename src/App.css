@@ -188,8 +188,10 @@ body::-webkit-scrollbar-track {
 }
 .about {
   width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
+  z-index: 10;
   align-content: center;
   margin-bottom: 200px;
 }
@@ -214,6 +216,7 @@ body::-webkit-scrollbar-track {
 
 .roadmap {
   width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -242,10 +245,11 @@ body::-webkit-scrollbar-track {
 
 .nfts {
   width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-content: center;
-  margin-bottom: 150px;
+  z-index: 10;
 }
 .nfts h2 {
   width: 100%;
@@ -280,29 +284,6 @@ body::-webkit-scrollbar-track {
   font-weight: 300;
   color: #b93b01;
   text-align: center;
-}
-
-.shop {
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-}
-.shop h2 {
-  width: 100%;
-  font-size: 8em;
-  color: #b93b01;
-  text-align: center;
-  margin: 100px 0 50px;
-  z-index: 1000;
-}
-.shop .shop-content {
-  width: 40%;
-  height: 500px;
-  background-color: white;
-  margin: 0 auto;
-  z-index: 1000;
 }
 
 .line {
@@ -387,7 +368,7 @@ body::-webkit-scrollbar-track {
 }
 
 .link-menu {
-  width: 50px;
+  width: 60px;
   height: 220px;
   position: fixed;
   bottom: 5%;
@@ -400,12 +381,11 @@ body::-webkit-scrollbar-track {
   list-style: none;
   display: flex;
   flex-flow: column nowrap;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
 }
 .link-menu ul li {
-  width: 50px;
-  height: 50px;
+  width: 60px;
 }
 .link-menu ul li img {
   width: 100%;

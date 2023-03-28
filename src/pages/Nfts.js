@@ -9,18 +9,13 @@ function Nfts() {
 
   return (
     <section className="nfts">
-      <h2
-        data-aos="fade-up"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000"
-      >
+      <h2 data-aos="fade-up" data-aos-duration="2000">
         NFTS
       </h2>
       <div
         className="nfts-content"
         data-aos="flip-left"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000"
+        data-aos-duration="3000"
       >
         <ol>
           <li>
