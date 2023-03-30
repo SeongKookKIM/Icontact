@@ -360,6 +360,71 @@ body::-webkit-scrollbar-track {
   margin-right: 5px;
 }
 
+.team {
+  width: 100%;
+  margin-bottom: 200px;
+  position: relative;
+  z-index: 100;
+}
+.team h2 {
+  width: 100%;
+  font-size: 8em;
+  color: #b93b01;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+.team ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.team ul li {
+  width: 25%;
+}
+.team ul li h5 {
+  width: 100%;
+  font-size: 4em;
+  text-align: center;
+  color: #b93b01;
+  margin-bottom: 30px;
+  position: relative;
+  padding-bottom: 10px;
+  cursor: default;
+}
+.team ul li h5::before {
+  content: "";
+  width: 20%;
+  height: 3px;
+  background-color: #b93b01;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  border-radius: 3px;
+}
+.team ul li ol {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.team ul li ol li {
+  width: 100%;
+}
+.team ul li ol li p {
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+  color: #b93b01;
+  font-weight: 500;
+  cursor: default;
+}
+
 .mobile {
   display: none;
 }

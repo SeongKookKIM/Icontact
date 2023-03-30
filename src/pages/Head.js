@@ -103,6 +103,13 @@ function Head() {
               </Link>
             </h3>
           </li>
+          <li>
+            <h3>
+              <Link to="team" smooth={true} duration={500} offset={20}>
+                <i>Team</i>
+              </Link>
+            </h3>
+          </li>
         </ul>
       </nav>
 

@@ -59,6 +59,11 @@
       }
     }
   }
+  .team {
+    ul li h5 {
+      font-size: 3em;
+    }
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -81,6 +86,22 @@
     .nfts-content {
       ol li p {
         text-align: left;
+      }
+    }
+  }
+  .team {
+    h2 {
+      font-size: 6em;
+    }
+    ul li {
+      h5 {
+        font-size: 2.5em;
+      }
+      ol {
+        gap: 10px;
+        li p {
+          font-size: 2em;
+        }
       }
     }
   }
@@ -168,6 +189,26 @@
   .nfts {
     h2 {
       font-size: 5em;
+    }
+  }
+  .team {
+    margin-top: 200px;
+    h2 {
+      font-size: 4.5em;
+    }
+    ul {
+      flex-wrap: wrap;
+
+      li {
+        width: 50%;
+        margin-bottom: 10px;
+        h5 {
+          margin-bottom: 10px;
+        }
+        ol {
+          gap: 0px;
+        }
+      }
     }
   }
 
@@ -259,6 +300,24 @@
       ol {
         gap: 50px;
         li p {
+          font-size: 2em;
+        }
+      }
+    }
+  }
+  .team {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    h2 {
+      font-size: 3.8em;
+    }
+    ul {
+      flex-wrap: wrap;
+
+      li {
+        width: 50%;
+        margin-bottom: 10px;
+        h5 {
           font-size: 2em;
         }
       }

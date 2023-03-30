@@ -15,6 +15,7 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import gsap from "gsap";
 import Slide from "./pages/Slide";
 import MobileMenu from "./pages/MobileMenu";
+import Team from "./pages/Team";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -43,6 +44,7 @@ function App() {
         <RoadMap />
         <Nfts />
         <Footline />
+        <Team />
         <img src="/assets/image/bg01.png" alt="bg" className="bg"></img>
         <Footer />
         <MobileMenu />

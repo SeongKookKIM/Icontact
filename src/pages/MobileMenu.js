@@ -41,6 +41,7 @@ function MobileMenu() {
       <NavLink to="about" label="ABOUT" />
       <NavLink to="roadmap" label="Road MAP" />
       <NavLink to="nfts" label="NFTS" />
+      <NavLink to="team" label="Team" />
       <span
         className="toggle"
         onClick={handleClick}

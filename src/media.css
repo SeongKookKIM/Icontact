@@ -48,6 +48,9 @@
   .nfts .nfts-content ol li p {
     font-size: 3em;
   }
+  .team ul li h5 {
+    font-size: 3em;
+  }
 }
 @media screen and (max-width: 1000px) {
   .App .bg {
@@ -63,6 +66,18 @@
   }
   .nfts .nfts-content ol li p {
     text-align: left;
+  }
+  .team h2 {
+    font-size: 6em;
+  }
+  .team ul li h5 {
+    font-size: 2.5em;
+  }
+  .team ul li ol {
+    gap: 10px;
+  }
+  .team ul li ol li p {
+    font-size: 2em;
   }
   .footer {
     height: 70px;
@@ -130,6 +145,25 @@
   }
   .nfts h2 {
     font-size: 5em;
+  }
+  .team {
+    margin-top: 200px;
+  }
+  .team h2 {
+    font-size: 4.5em;
+  }
+  .team ul {
+    flex-wrap: wrap;
+  }
+  .team ul li {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  .team ul li h5 {
+    margin-bottom: 10px;
+  }
+  .team ul li ol {
+    gap: 0px;
   }
   .line {
     top: 11%;
@@ -210,6 +244,23 @@
     gap: 50px;
   }
   .nfts .nfts-content ol li p {
+    font-size: 2em;
+  }
+  .team {
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+  .team h2 {
+    font-size: 3.8em;
+  }
+  .team ul {
+    flex-wrap: wrap;
+  }
+  .team ul li {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  .team ul li h5 {
     font-size: 2em;
   }
   .footer {
