@@ -21,7 +21,7 @@ function RoadMap() {
   return (
     <div className="roadmap">
       <h2 data-aos="fade-up" data-aos-duration="2000" ref={contentRef}>
-        RoadMap
+        NFTS
       </h2>
       <div
         className="roadmap-content"

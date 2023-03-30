@@ -67,6 +67,22 @@
   .nfts .nfts-content ol li p {
     text-align: left;
   }
+  .nfts .nfts-content ol .middle-line p {
+    position: relative;
+    text-decoration: none;
+  }
+  .nfts .nfts-content ol .middle-line p::after {
+    content: "";
+    width: 200px;
+    height: 4px;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: #b93b01;
+    opacity: 0.7;
+  }
   .team h2 {
     font-size: 6em;
   }
@@ -245,6 +261,9 @@
   }
   .nfts .nfts-content ol li p {
     font-size: 2em;
+  }
+  .nfts .nfts-content ol .middle-line p::after {
+    width: 140px;
   }
   .team {
     margin-top: 150px;

@@ -285,6 +285,22 @@ body::-webkit-scrollbar-track {
   color: #b93b01;
   text-align: center;
 }
+.nfts .nfts-content ol .middle-line p {
+  position: relative;
+  text-decoration: none;
+}
+.nfts .nfts-content ol .middle-line p::after {
+  content: "";
+  width: 30%;
+  height: 4px;
+  border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #b93b01;
+  opacity: 0.7;
+}
 
 .line {
   width: 100%;
@@ -443,8 +459,9 @@ body::-webkit-scrollbar-track {
   list-style: none;
   display: flex;
   flex-flow: column nowrap;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
+  gap: 30px;
 }
 .link-menu ul li {
   width: 60px;

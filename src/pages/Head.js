@@ -92,14 +92,14 @@ function Head() {
           <li>
             <h3>
               <Link to="roadmap" smooth={true} duration={500} offset={0}>
-                <i>Road MAP</i>
+                <i>NFTS</i>
               </Link>
             </h3>
           </li>
           <li>
             <h3>
               <Link to="nfts" smooth={true} duration={500} offset={40}>
-                <i>NFTS</i>
+                <i>Road MAP</i>
               </Link>
             </h3>
           </li>

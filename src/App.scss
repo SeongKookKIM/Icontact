@@ -295,6 +295,24 @@ body::-webkit-scrollbar-track {
           text-align: center;
         }
       }
+      .middle-line {
+        p {
+          position: relative;
+          text-decoration: none;
+        }
+        p::after {
+          content: "";
+          width: 30%;
+          height: 4px;
+          border-radius: 4px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background-color: #b93b01;
+          opacity: 0.7;
+        }
+      }
     }
   }
 }
@@ -452,8 +470,9 @@ body::-webkit-scrollbar-track {
     list-style: none;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
+    gap: 30px;
     li {
       width: 60px;
       img {

@@ -10,7 +10,7 @@ function Nfts() {
   return (
     <section className="nfts">
       <h2 data-aos="fade-up" data-aos-duration="2000">
-        NFTS
+        RoadMap
       </h2>
       <div
         className="nfts-content"
@@ -18,7 +18,7 @@ function Nfts() {
         data-aos-duration="3000"
       >
         <ol>
-          <li>
+          <li className="middle-line">
             <p>1. Issue NFTs.</p>
           </li>
           <li>

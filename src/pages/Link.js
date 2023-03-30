@@ -16,6 +16,15 @@ function Link() {
             }}
           />
         </li>
+        <li>
+          <img
+            src="assets/image/twitter.svg"
+            alt="twitter-icon"
+            onClick={() => {
+              window.open("https://twitter.com/NEyecontac10346", "_blank");
+            }}
+          />
+        </li>
       </ul>
     </div>
   );

@@ -84,8 +84,30 @@
   }
   .nfts {
     .nfts-content {
-      ol li p {
-        text-align: left;
+      ol {
+        li {
+          p {
+            text-align: left;
+          }
+        }
+        .middle-line {
+          p {
+            position: relative;
+            text-decoration: none;
+          }
+          p::after {
+            content: "";
+            width: 200px;
+            height: 4px;
+            border-radius: 4px;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            background-color: #b93b01;
+            opacity: 0.7;
+          }
+        }
       }
     }
   }
@@ -299,8 +321,15 @@
       min-height: auto;
       ol {
         gap: 50px;
-        li p {
-          font-size: 2em;
+        li {
+          p {
+            font-size: 2em;
+          }
+        }
+        .middle-line {
+          p::after {
+            width: 140px;
+          }
         }
       }
     }
