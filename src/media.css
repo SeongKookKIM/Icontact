@@ -65,7 +65,7 @@
     text-align: left;
   }
   .footer {
-    height: 130px;
+    height: 70px;
     gap: 10px;
   }
   .footer img {
@@ -213,7 +213,7 @@
     font-size: 2em;
   }
   .footer {
-    height: 100px;
+    height: 50px;
   }
   .footer img {
     width: 100px;
